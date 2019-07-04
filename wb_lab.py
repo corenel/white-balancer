@@ -35,7 +35,7 @@ if __name__ == '__main__':
     parser.add_argument('calib_image_path',
                         type=str,
                         help='path to calibration image')
-    parser.add_argument('--test', '-t'
+    parser.add_argument('--test', '-t',
                         type=str,
                         help='path to test image')
     args = parser.parse_args()
